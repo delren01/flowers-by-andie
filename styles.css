@@ -10,7 +10,7 @@ html {
 
 body {
     /* background-color: #f7e5ff; */
-    background-color: #FFD6FF;
+    background-color: #F3D5FF;
     line-height: 1.5;
 
     @media (width > 720px) {
@@ -24,7 +24,7 @@ h1 {
     font-size: 3rem;
     text-align: center;
     line-height: 1.3;
-    color: #38085D;
+    color: #2A004F;;
     margin: 0;
     /* background-color: rgb(252, 213, 253); */
     background-color: #C8B6FF;
@@ -155,7 +155,7 @@ fieldset {
 }
 
 .colored-bg p {
-    color: #2E0D47;
+    color: #22003B;
     margin: 0;
 }
 
@@ -183,6 +183,7 @@ fieldset {
 
 .primary-navigation a:hover, a:focus-visible {
     color: #173600;
+    text-decoration: underline;
     transition: color 0.3s ease;
 }
 
@@ -332,7 +333,7 @@ fieldset {
 
 .contact-info {
     font-size: 0.85rem;
-    line-height: 1.6;
+    /* line-height: 1.6; */
     text-align: center;
 }
 
