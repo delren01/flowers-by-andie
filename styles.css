@@ -279,13 +279,13 @@ fieldset {
 }
 
 .quick-links a {
-    color: green;
+    color: #045904;
     font-weight: bold;
 }
 
 .quick-links a:hover, a:focus-visible {
     text-decoration: underline;
-    color: #593959;
+    color: #412A41;
     transition: color 0.3s ease;
 }
 
@@ -333,4 +333,12 @@ fieldset {
     font-size: 0.85rem;
     line-height: 1.6;
     text-align: center;
+}
+
+.contact-info a {
+    color: #410C55;
+}
+
+.colored-bg .contact-info {
+    color: #042F04;
 }
