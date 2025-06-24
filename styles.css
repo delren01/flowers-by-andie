@@ -27,7 +27,6 @@ h1 {
     color: #2A004F;
     border-radius: 10px 10px 0 0;
     margin: 0;
-    margin-bottom: 0;
     /* background-color: rgb(252, 213, 253); */
     background-color: #C8B6FF;
 
@@ -169,7 +168,7 @@ fieldset {
     list-style: none;
     /* background-color: #E7C6FF; */
     background-color: #C8B6FF;
-    border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;   
     margin-top: 0;
     padding: 10px;
 
