@@ -29,6 +29,7 @@
         <div class="wrapper">
             <section class="contact-section">
                 <form action="https://api.web3forms.com/submit" method="POST">
+                    <!-- W3Forms implementation -->
                     <input type="hidden" name="apikey" value="95b9e24f-8c80-412d-b157-e49e6926c453">
                     <h2>Contact Me</h2>
                     <p>Have a question or want to place an order? Fill out the form below!</p>
@@ -50,9 +51,11 @@
                         <textarea id="message" name="message" rows="7" cols="50" placeholder="If you have any questions or want to order, let me know here..." required></textarea><br>
                         <input type="hidden" name="redirect" value="https://web3forms.com/success">
                     </fieldset>
-
+                    <!-- hCaptcha implementation-->
+                    <div class="h-captcha" data-captcha="true"></div>
                     <button class="form-btn" type="submit">Submit</button>
                 </form>
+                <script src="https://web3forms.com/client/script.js" async defer></script>
             </section>
         </div> 
     </main>
