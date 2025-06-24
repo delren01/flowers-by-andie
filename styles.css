@@ -92,7 +92,7 @@ label {
     display: block;
     font-weight: bold;
     margin-block-start: 1rem;
-    color: #7943a0;
+    color: #3B1F5B;
     font-size: 1rem;
 
     @media (width > 720px) {
@@ -109,10 +109,12 @@ input {
 
 input, textarea {
     inline-size: 100%;
-    padding: 7px;
-    margin-block-start: 0.5rem;
+    padding: 8px;
+    margin-block-start: 0.3rem;
     margin-block-end: 1rem;
-    border: 2px solid #b37feb;
+    border: 2px solid #6A3F91;
+    background-color: white;
+    color: #2A004F;
     border-radius: 5px;
     font-size: 1rem;
     font-family: inherit;
@@ -179,12 +181,13 @@ fieldset {
 }
 
 .primary-navigation a {
-    color: #1A3902;
+    color: #2A004F;
     font-weight: bold;  
+    transition: color 0.3s ease;
 }
 
 .primary-navigation a:hover, a:focus-visible {
-    color: #173600;
+    color: #7B2CBF;
     text-decoration: underline;
     transition: color 0.3s ease;
 }
@@ -283,38 +286,58 @@ fieldset {
 }
 
 .quick-links a {
-    color: #045904;
+    color: #2A004F;
     font-weight: bold;
+    transition: color 0.3s ease;
 }
 
 .quick-links a:hover, a:focus-visible {
     text-decoration: underline;
-    color: #412A41;
+    color: #7B2CBF;
     transition: color 0.3s ease;
 }
 
 .small-format {
-    font-size: 0.80rem;
+    color: #5A189A;
+    font-size: 0.75rem;
     font-weight: normal;
 }
 
 .contact-section {
-    margin: auto;
     display: flex;
     justify-content: center;
-    /* background-color: #d5ccff; */
+    color: #2A004F;
     /* border: 5px solid #efccff; */
     border-radius: 10px;
-    padding-block-end: 2rem;
+
+    @media (width <= 480px) {
+        padding-inline: 1rem;
+    }
+}
+
+.contact-section h2 {
+    margin-top: 0;
+    color: #2A004F;
+    margin-bottom: 0.5rem;
+}
+
+.contact-section p {
+    color: #3B1F5B;
+    margin-bottom: 1rem;
+}
+
+.contact-section input:focus, textarea:focus {
+    outline: 2px solid #7B2CBF;
 }
 
 .form-btn {
+    margin-bottom: 0;
     margin-block-start: 1.3rem;
     padding-block: .45rem;
     padding-inline: 2rem;
     font-size: 1.1rem;
     font-weight: bold;
-    background-color: #7943a0;
+    background-color: #5A189A;
     border: none;
     border-radius: 5px;
     color: white;
@@ -322,8 +345,10 @@ fieldset {
     transition: background-color 0.3s ease;
 }
 
-.form-btn:hover {
-    background-color: #a165ce;
+.form-btn:hover, .form-btn:focus-visible {
+    background-color: #7B2CBF;
+    outline: none;
+    color: white;
 }
 
 
